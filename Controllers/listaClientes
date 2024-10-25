@@ -1,0 +1,10 @@
+List<Cliente> listaClientes = new List<Cliente>();
+listaClientes.Add(cliente1);
+listaClientes.Add(cliente2);
+listaClientes.Add(cliente3);
+listaClientes.Add(cliente4);
+listaClientes.Add(cliente5);
+
+ViewBag.listaClientes = listaClientes;
+
+return View();
